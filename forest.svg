@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 500">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b9d8bd"/><stop offset="1" stop-color="#e6efda"/></linearGradient>
+    <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#83ad88"/><stop offset="1" stop-color="#56876b"/></linearGradient>
+    <g id="tree"><path d="M0 0 45 76H31l29 50H42l29 55H-71l29-55h-18l29-50h-14Z"/><path d="M-7 172h14v40H-7z"/></g>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h420v500H0z"/>
+  <circle cx="320" cy="92" r="37" fill="#f3edc6" opacity=".85"/>
+  <path fill="#a2c6a5" d="M0 270 85 155l70 91 68-103 102 132 55-74 40 60v239H0z"/>
+  <path fill="url(#hill)" d="M0 335q95-82 194-26t226-21v212H0z"/>
+  <g fill="#739e79" opacity=".85">
+    <use href="#tree" transform="translate(22 195) scale(.8)"/>
+    <use href="#tree" transform="translate(112 180) scale(.9)"/>
+    <use href="#tree" transform="translate(253 190) scale(.85)"/>
+    <use href="#tree" transform="translate(375 178) scale(.95)"/>
+  </g>
+  <path fill="#4a795e" d="M0 390q100-48 209 1t211-15v124H0z"/>
+  <g fill="#315e49">
+    <use href="#tree" transform="translate(38 275) scale(1.05)"/>
+    <use href="#tree" transform="translate(150 300) scale(.9)"/>
+    <use href="#tree" transform="translate(286 270) scale(1.1)"/>
+    <use href="#tree" transform="translate(405 300) scale(.9)"/>
+  </g>
+  <path fill="#264e3e" d="M0 461q110-41 213-6t207-10v55H0z"/>
+</svg>
